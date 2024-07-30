@@ -1,4 +1,4 @@
-<h2>Quick order by phone number</h2>
+<h2>Quick order by phone number (2023)</h2>
 A “Quick Order” button has been added next to the “Add to Cart” button on the product page and on the catalog page for categories, search, compare and wishlist.
 
 ![image](https://github.com/IMaxikI/QuickOrder/assets/71653309/a2bf2fb2-a56b-4a2d-94c9-d3642e6700fe)
