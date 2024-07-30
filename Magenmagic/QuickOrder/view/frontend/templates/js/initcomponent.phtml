@@ -1,0 +1,19 @@
+<?php
+/** @var \Magenmagic\QuickOrder\Block\Config $block */
+/** @var \Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer */
+?>
+<?= /* @noEscape */ $secureRenderer->renderTag('script', [], 'window.noteText = ' .
+    /* @noEscape */ $block->getNoteText(), false); ?>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "quick-order-modal": {
+                        "component": "Magenmagic_QuickOrder/js/quick-order-modal"
+                    }
+                }
+            }
+        }
+    }
+</script>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magenmagic_QuickOrder::sales_quick" title="Quick Sales" module="Magenmagic_QuickOrder" sortOrder="10" parent="Magento_Sales::sales_operation" resource="Magento_Sales::sales_order" action="sales_quick/index/grid"/>
+    </menu>
+</config>

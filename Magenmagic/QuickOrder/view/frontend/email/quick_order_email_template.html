@@ -1,0 +1,19 @@
+<!--@subject Quick Order Notification @-->
+<!--@vars {
+"var name":"Name",
+"var phone_number":"Phone Number",
+"var comment":"Comment"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<h1>Quick Order Request</h1>
+{{if name}}
+<p><strong>{{trans "Name: "}}</strong>{{var name}}</p>
+{{/if}}
+<p><strong>{{trans "Phone Number: "}}</strong>{{var phone_number}}</p>
+{{if comment}}
+<p><strong>{{trans "Comment: "}}</strong>{{var comment}}</p>
+{{/if}}
+
+{{template config_path="design/email/footer_template"}}
